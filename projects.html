@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<!--Jonah Rothman CS 303 MP1 -->
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>Projects | Jonah Rothman</title>
     </head>
@@ -24,6 +26,7 @@
                 </nav>
                 <main id="list">
                     <h1>Projects</h1>
+                    <!--personal projects I have  done-->
                     <ul>
                         <li>Rezzy
                             <ul>
@@ -45,7 +48,34 @@
                                 <li>AI study platform that turns notes into flashcards</li>
                             </ul>
                         </li>
+                        <li>Calculator
+                            <ul>
+                                <li>JavaScript calculator for addition, subtraction, multiplication, division, and power</li>
+                            </ul>
+                        </li>
                     </ul>
+
+                    <!-- calculator at the bottom -->
+                    <div id="calculator">
+                        <h2>Calculator</h2>
+                        <div>
+                            <label for="first-number">First Number</label>
+                            <input type="text" id="first-number">
+                        </div>
+                        <div>
+                            <label for="second-number">Second Number</label>
+                            <input type="text" id="second-number">
+                        </div>
+                        <div>
+                            <button onclick="addition()"> + </button>
+                            <button onclick="subtraction()"> - </button>
+                            <button onclick="multiplication()"> * </button>
+                            <button onclick="division()"> / </button>
+                            <button onclick="power()"> ** </button>
+                            <button onclick="window.clear()"> Clear </button>
+                        </div>
+                        <h3 id="output"></h3>
+                    </div>
                 </main>
             </div>
             <footer>
