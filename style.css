@@ -172,6 +172,11 @@ footer a {
         margin: 2%;
     }
 
+    nav a,
+    main {
+        font-size: calc(14px + 0.4vw);
+    }
+
     main {
         padding: 3%;
         flex: 1;
